@@ -1,0 +1,54 @@
+.main{
+    height: 2000px;
+    width: 100vw;
+    background-image: linear-gradient(pink, skyblue,  rgb(223, 223, 183), whitesmoke);
+}
+
+.frontChild{
+    width: 400px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.communityFront{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#frontHead{
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+#frontPara1, #frontPara2{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+#connexBtn{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    font-size: 1rem;
+    border-radius: 10px;
+    border: none;
+    background-color: #0ace76;
+    font-weight: 600;
+    gap: 0.5rem;
+}
+
+
+#connexBtn:hover{
+    border: #000 solid 3px;
+    cursor: pointer;
+}
+
+.arrowIcon{
+    height: 15px;
+}

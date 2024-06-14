@@ -1,0 +1,68 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.regisBack{
+    background-image: url('../photos/magnetic.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.bgc{
+    width: 30vw;
+    height: 600px;
+}
+
+
+.formchild{
+    display: flex;
+}
+
+.register{
+    background-color: #fff;
+    height: 600px;
+    width: 50vw;
+    padding: 5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+#information{
+    display: flex;
+    justify-content: center;
+    gap: 30%;
+}
+
+.gender{
+    display: flex;
+    justify-content: space-between;
+}
+
+.property{
+    display: flex;
+}
+
+
+#submit{
+    background-color: rgb(17, 17, 105);
+    padding: 1rem;
+    color: whitesmoke;
+    border-radius: 10px;
+    border: none;
+}
+
+
+#regHead{
+    border-bottom: solid blue 2px;
+}
+
+input{
+    padding: 0.5rem;
+}

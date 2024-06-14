@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.post-creation-page{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.post-creation-fieldset{
+    display: flex;
+}
+
+.post-creation-form{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+}
+
+.sideImage{
+    width: 50vw;
+    height: 50vw;
+}
+
+.post-creation-information{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+label{
+    font-weight: 600;
+}
+
+input{
+    background-color: #fff;
+}
+
+.btn{
+    padding: 0.5rem;
+    border-radius: 10px;
+    background-color: teal;
+    color: whitesmoke;
+    border: none;
+}
+
+.btn:hover{
+    border: solid black 3px;
+}
+
+select{
+    border: solid rgb(57, 54, 54) 2px;
+}
+
+
+.legend-head{
+    border-bottom: 3px solid teal;
+}

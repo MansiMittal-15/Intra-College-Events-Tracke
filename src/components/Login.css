@@ -1,0 +1,92 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.complete{
+    background-color: rgb(214, 125, 125);
+    background-image: linear-gradient(rgb(191, 103, 191), rgb(197, 197, 122), rgb(169, 236, 169), whitesmoke);
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login{
+    background-color: #fff;
+    height: 600px;
+    padding: 2rem;
+    width: 40vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+#email, #password{
+    padding: 1rem;
+    width: 400px;
+}
+
+
+.remember{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.submitBtn{
+    padding: 1rem;
+    width: 400px;
+    background-color: rgb(17, 17, 114);
+    border-radius: 10px;
+    border: none;
+    color: #fff;
+}
+
+.googleBtn{
+    width: 400px;
+    padding: 1rem;
+    background-color: #fff;
+    border: solid 0.3px black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.bgc{
+    height: 600px;
+    width: 70vh;
+    object-fit: cover;
+}
+
+.googleIcon{
+    height: 30px;
+    width: 30px;
+}
+
+.line{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+#l1, #l2{
+    width: 140px;
+}
+
+.iconLogin{
+    border-radius: 50%;
+    height: 59px;
+    width: 50px;
+}
+
+.comp{
+    display: flex;
+}

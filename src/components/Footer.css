@@ -1,0 +1,63 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.title{
+    height: 30px;
+    width: 60px;
+}
+
+.insta{
+    height: 30px;
+    width: 30px;
+}
+
+.linked_in{
+    height: 25px;
+    width: 25px;
+    margin-right: 4px;
+}
+
+.gmail{
+    height: 25px;
+    width: 25px;
+}
+
+.github{
+    height: 27px;
+    width: 40px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 3rem;
+    margin-bottom: 5rem;
+    margin-top: 3rem;
+}
+
+.last{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footList{
+    /* margin-top: 2rem; */
+    display: inline;
+    /* gap: 1rem; */
+}
+
+h2{
+    margin-bottom: 1.5rem;
+}
+
+.about{
+    width: 200px;
+}
+
+.listItem{
+    margin-bottom: 0.5rem;
+}

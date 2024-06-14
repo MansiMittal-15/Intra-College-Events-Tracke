@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.active{
+    color: rgb(80, 181, 181);
+}
+
+.three-layered-box{
+    height: 93.5vh;
+    background-color: rgb(28, 28, 24);
+    width: 300px;
+    position: absolute;
+    right: 0px;
+}
+
+.three-layered-list-item{
+    color: whitesmoke;
+}
+
+.three-layered-unorder-list{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+
+.three-layered-unorder-list li{
+    margin-top: 1rem;
+}

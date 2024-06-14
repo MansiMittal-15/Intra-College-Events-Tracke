@@ -1,0 +1,88 @@
+.head{
+    display: flex;
+    justify-content: space-between;
+    height: 3rem;
+    align-items: center;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    /* background-color: rgba(255, 235, 205, 0.309); */
+}
+
+.logo{
+    width: 50px;
+    height: 50px;
+}
+
+ul, .left{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    font-weight: 700;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+a:hover{
+    color: rgb(80, 181, 181);
+}
+
+.person{
+    /* margin-top: 10px; */
+    width: 15px;
+    height: 15px;
+}
+
+.signBtn{
+    background-color: rgb(12, 12, 50);
+    color: whitesmoke;
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+
+}
+
+.signBtn:hover{
+    background-color: rgb(6, 14, 98);
+    cursor: pointer;
+    border: solid 1px whitesmoke;
+}
+
+.title{
+    height: 30px;
+    width: 60px;
+}
+
+.logBtn{
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: none;
+    background-color: #0cee89;
+    font-weight: 600;
+}
+
+.logBtn:hover{
+    border: #000 solid 1px;
+    cursor: pointer;
+}
+
+.triple-icon-btn{
+    border: none;
+    background-color: #fff;
+    color: #000;
+}
+
+.triple-icon-img{
+    height: 30px;
+}
